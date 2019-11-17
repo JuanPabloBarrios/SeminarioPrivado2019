@@ -7,17 +7,46 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## Proyecto de Seminario 2019 Juan Pablo Barrios
+Proyecto Final Área de Análisis y Desarrollo
+ 
+Información General
+Fecha de Entrega:	El día de su evaluación final.
+Como parte de las actividades para aprobar el Área de Análisis y Desarrollo, se requiere la entrega de un proyecto de Desarrollo de Software, el cual deberá ser completado por parte del estudiante, en el cual deberá utilizar los diferentes conocimientos adquiridos para entregar una solución integral y funcional de lo requerido. 
+Antecedentes
+La empresa de Sistemas y Desarrollos SkyNet, se dedica a ofrecer servicios de Gestión de Casos y Documentos a diferentes clientes en todo el país de Guatemala; debido a la alta carga de clientes, se ve en la necesidad de invertir en la creación de una plataforma de servicios en la nube, la cual será el centro de atención y trabajo, según el modelo de negocio que la empresa utiliza.
+La solución debe cumplir con los siguiente:
+Requerimientos
+­	Desarrollo de la API de comunicación utilizando tecnologías REST.
+o	Podrá ser utilizada por terceros.
+o	Las consultas de los diferentes casos y estados deberán realizarse únicamente por medio de la API.
+­	La base de datos servirá los datos a través de procedimientos almacenados.
+­	La parametrización debe permitir registrar los diferentes casos que se registran en las oficinas y los responsables de las mismas.
+­	Se requiere gestionar el flujo de casos automáticamente, con esto el responsable de la empresa deberá crear dinámicamente las diferentes rutas que se debe seguir para llegar a ser finalizado.
+­	Al finalizar cada caso el sistema debe emitir automáticamente un documento tipo acta, en el cual se establezca el dictamen final del mismo, considerando que el dictamen puede ser positivo o negativo.
+­	Para cada caso registrado en el sistema, se debe permitir almacenar los documentos, que respalden el mismo. 
+­	El sistema debe contemplar el manejo de usuarios basados en perfiles y roles.
+­	Proveer de pantallas de captura y mantenimiento de la información (gerenciales, reportearía, mantenimientos, así como de todos los catálogos que maneje. 
+­	Reportería
+o	Presentar tablero de visualización de casos para cada oficina, es decir que los responsables de la oficina únicamente podrán visualizar los casos asignados a dicha oficina.
+o	Proveer registro adecuado de auditoria de datos y de sesiones.
+o	Proporcionar la siguiente información (tanto en pantalla como hacia PDF): 
+▪	Casos por fecha, oficina, tipo, dictamen.
+▪	Casos por responsable y fecha.
+Entregables
+•	Documentación funcional del sistema. (Se sugiere utilizar RUP).
+a)	Entregar documentación impresa completa (manual del usuario, diagrama de ER en notación de Barker, diagramas de clases -con sus respectivas descripciones-, diagramas de secuencia, diagramas de actividades, etc.). 
+●	Prototipo funcional.
+a)	Entregar en un comprimido los archivos fuente en DVD.
+b)	En caso de utilizar Java para su desarrollo, adjuntar él .war o .jar.
+c)	El sistema deberá ser presentando corriendo en su computadora.
+d)	Para su calificación deberá tener información en todos los catálogos, y productos que sirvan de ejemplo para las pruebas.
+Sanciones
+a)	Diagramas iguales, o descargados de internet. -50%
+b)	Copia de cualquier parte del programa o la documentación: -100% 
+c)	Archivos corruptos o con virus: -100%.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
